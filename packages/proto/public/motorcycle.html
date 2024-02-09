@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/styles/page.css" />
+        <link rel="stylesheet" href="/styles/reset.css" />
+        <link rel="stylesheet" href="/styles/tokens.css" />
+    </head>
         <title>Motorcycle</title>
         <body>
             <header>
                 <h1>Motorcycle</h1>
+                <box class="header-box">
+                    <h3><a class="nav-element" href="motorcycle.html">Motorcycle</a></h3>
+                    <h3><a class="nav-element" href="gear.html">Gear</a></h3> 
+                </box>
             </header>
 
             <main>
-                <p>There's a lot of bikes to choose from!  However, you'll have to keep some factors in mind when choosing one</p>
-                <ul>
-                    
-                    <li>
-                        <p>What's your <a href="budget.html">Budget</a>?</p>
-                    </li>
-                    <li>
-                        <p>Do you want to ride dirt, street or both? This will determine your <a href="riding-style.html">riding style</a>.</p>
-                    </li>
-                    <li>
-                        <p>What would you say is your <a href="skill-level.html">skill level</a>? It's not recommended to start on a fast and/or heavy bike</p>
-                    </li>
-                    <li>
-                        <p>Your <a href="rider-height.html">rider height</a> is an important factor in choosing a bike because a 
-                            <a href="seat-height.html">seat height</a> too high for you can be dangerous</p>
-                    </li>
-                    
-                    
-                </ul>
-                <p>Back to <a href="index.html">home</a></p>
+                <div class="container">
+                    <div class="flex-box left-hand">
+                        <box class="content-box">
+                            <h4>Previous Step</h4>
+                            <a href="skill-level.html">Back to configuration</a>
+                        </box>                      
+                    </div>
+                    <div class="flex-box middle">
+                        <box class="content-box">
+                            <h4>Place holder for motorcycle configuration</h4>
+                        </box>
+                    </div>
+                    <div class="flex-box right-hand">
+                        
+                    </div>
+                </div>
+                        
             </main>
+            <footer>
+                <div class="footer-purple"></div>
+                <div class="footer-red"></div>
+            </footer>
         </body>
-    </head>
+    
 </html>

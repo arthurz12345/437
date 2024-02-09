@@ -1,17 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/styles/page.css" />
+        <link rel="stylesheet" href="/styles/page.css" />
+        <link rel="stylesheet" href="/styles/reset.css" />
+        <link rel="stylesheet" href="/styles/tokens.css" />
+
+    </head>
         <title>Budget</title>
         <body>
             <header>
                 <h1>Budget</h1>
+                <box class="header-box">
+                    <h3><a class="nav-element" href="motorcycle.html">Motorcycle</a></h3>
+                    <h3><a class="nav-element" href="gear.html">Gear</a></h3>
+                </box>
             </header>
 
             <main>
-                <p>Motorcycles are an expensive hobby.  Everything you can imagine will cost you money.  Don't spend all your money on the bike because you'll regret it when you can't afford good safety gear.</p>
-                
-                <p>Back to <a href="motorcycle.html">Motorcycle</a> or <a href="gear.html">Gear</a></p>
+                <div class="container">
+                    <div class="flex-box left-hand">
+                        <box class="content-box">
+                            <h4>Previous Step</h4>
+                            <a href="index.html">Home</a>
+                        </box>
+                    </div>
+                    <div class="flex-box middle">
+                        <box class="content-box">
+                            <h4>Place holder for Budget</h4>
+                        </box>
+                    </div>
+                    <div class="flex-box right-hand">
+                        <box class="content-box">
+                            <h4>Next Step</h4>
+                            <box class="right-list-item">
+                                <input type="checkbox">
+                                <a href="riding-style.html">Riding Style</a>
+                            </box>                
+                        </box>
+                    </div>
+                </div>
             </main>
+            <footer>
+                <div class="footer-purple"></div>
+                <div class="footer-red"></div>
+            </footer>
         </body>
-    </head>
+    
 </html>

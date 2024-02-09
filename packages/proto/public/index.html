@@ -1,34 +1,57 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/styles/page.css" />
+        <link rel="stylesheet" href="/styles/reset.css" />
+        <link rel="stylesheet" href="/styles/tokens.css" />
         <title>Motorcycle Gear Picker</title>
+    </head>
         <body>
+            
             <header>
                 <h1>Motorcycle Gear Picker</h1>
+                <box class="header-box">
+                   <h3><a class="nav-element" href="motorcycle.html">Motorcycle</a></h3>
+                   <h3><a class="nav-element" href="gear.html">Gear</a></h3> 
+                   
+                </box>
+                
             </header>
+            
+            
 
             <main>
-                <p>As a rider,</p>
-                <ul>
-                    
-                    <li>
-                        <p>You'll need to pick out a <a href="motorcycle.html">Motorcycle</a></p>
-                    </li>
-                    <li>
-                        <p>It's also really important to get proper <a href="gear.html">Gear</a></p>
-                    </li>
-                    <p>However, your choice of both will depend on your: </p>
-                    <li>
-                        <p><a href="rider-height.html">Rider Height</a></p>
-                    </li>
-                    <li>
-                        <p><a href="riding-style.html">Riding Style</a></p>
-                    </li>
-                    <li>
-                        <p><a href="skill-level.html">Skill Level</a></p>
-                    </li>
-                </ul>
+                <div class="container">
+                    <div class="flex-box left-hand">
+                        <box class="content-box">
+                            <h4>Previous Step</h4>
+                            <p>Already at first step</p>
+                        </box>
+                    </div>
+                    <div class="flex-box middle">
+                        <box class="content-box">
+                            <h4>Place holder for rider configuration</h4>
+                        </box>    
+                    </div>
+                    <div class="flex-box right-hand">
+                        <box class="content-box">                          
+                            <h4>Next Step:</h4>                          
+                            <box class="right-list-item">
+                                <input type="checkbox">
+                                <a href="budget.html">Budget</a>
+                            </box>        
+                        </box>
+                    </div>
+                </div>
+                
             </main>
+            <footer>
+                <div class="footer-purple"></div>
+                <div class="footer-red"></div>
+            </footer>
         </body>
-    </head>
-</html>
+    
+</html> 

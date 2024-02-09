@@ -1,0 +1,167 @@
+h1{
+    color: var(--title-color);
+    /* width: 100%; */
+    margin-left: 10px;
+    font-family: 'Roboto Slab', serif;
+    width: 50%;
+}
+
+h4{
+    color: var(--red-color);
+
+}
+
+.nav-element{
+    text-decoration: none;
+    color: var(--title-color);
+}
+
+.nav-element:hover{
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.flex-box{
+    flex-basis: 0;
+    border: 1px solid var(--red-color);
+}
+
+
+
+.left-hand{
+    flex-grow: 1;
+    display: flex;
+}
+
+.middle{
+    flex-grow: 4;
+    display: flex;
+}
+
+.right-hand{
+    flex-grow: 1;
+    display: flex;
+}
+
+.right-list{
+    display: flex;
+    list-style: none;
+}
+
+.content-box{
+    box-sizing: content-box;
+    width: auto;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h3{
+    color: var(--title-color);
+    /* width: 100%; */
+    margin-left: 10px;
+    font-family: 'Roboto Slab', serif;
+    vertical-align: baseline;
+    margin-left: 50px;
+    
+}
+
+.header-box{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+
+
+svg.icon    {
+    display: inline;
+    height: 2em;
+    width: 2em;
+    vertical-align: top;
+    fill: currentColor;
+}
+
+svg.helmet{
+    display: inline;
+    height: 2em;
+    width: 2em;
+    vertical-align: top;
+    fill: currentColor;
+}
+
+html {
+    background-color: #151515;
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    src: url(NotoSans-VariableFont_wdth\,wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: slab;
+}
+
+p{
+    color: var(--text-color);
+}
+a{
+    color: var(--text-color);
+}
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #1D2B53;
+    z-index: 1000;
+    height: 100px;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 10px;
+    /* padding-left: 10px; */
+    display: flex;
+    align-items: baseline;
+
+
+}
+footer{
+    width: 100vw;
+    height: 50px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    margin-bottom: 0;
+}
+
+.footer-red{
+    height: 25px;
+    background-color: var(--red-color);
+}
+
+.footer-purple{
+    height: 25px;
+    background-color: var(--purple-color);
+}
+
+main {
+    padding: 10px;
+    height: 100vh;
+    font-family: "NotoSans";
+}
+
+.right-list-item{
+    width: 100%;
+    display: flex;
+    line-height: 3em;
+}
+
